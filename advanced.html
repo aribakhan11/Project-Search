@@ -1,0 +1,64 @@
+<!DOCTYPE html><html>
+
+<head>
+    <title>Advanced</title>
+    <style>
+        .links a {
+    color: rgb(83, 83, 83);
+    font-size: 20px;
+}
+
+.search-bar {
+
+text-align: center;
+margin-top: 90px;
+
+            }
+            .search-bar input[type="text"]{
+width:500.42px;
+height: 45.99px;
+border-radius: 40px;
+margin-bottom: 20px;
+padding-left: 10px;
+}
+.search-bar input[type="submit"]{
+    margin-left: 20px;
+    margin-right: 10px;
+    width:142.3px;
+    height: 35.99px;
+ border-radius: 5px;
+ background-color: rgb(245, 245, 245);
+ border-color: rgb(245, 245, 245) ;
+}
+.links {
+   text-align: right;
+}
+#h2{
+    color: red;
+}
+    </style>
+</head>
+<body>
+    <div class="links">
+        <a href="index.html"> Google Search</a>
+        <a href="image.html">Google Images</a></div>
+        <hr>
+    <h2 >Advanced Search</h2>
+   <hr><div class="search-bar">
+    <form action="https://www.google.com/search">
+        <label for="as_q">Find pages with all these words:</label>
+        <input type="text" id="as_q" name="as_q"><br>
+
+        <label for="as_epq">Find pages with this exact word or phrase:</label>
+        <input type="text" id="as_epq" name="as_epq"><br>
+
+        <label for="as_oq">Find pages with any of these words:</label>
+        <input type="text" id="as_oq" name="as_oq"><br>
+
+        <label for="as_eq">Find pages with none of these words:</label>
+        <input type="text" id="as_eq" name="as_eq"><br>
+
+        <input type="submit" value="Advanced Search" style="background-color: blue; color: white;">
+    </form></div>
+</body>
+</html>
